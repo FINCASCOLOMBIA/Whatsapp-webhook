@@ -26,5 +26,5 @@ res.sendStatus(200);
 });
 
 app.listen(port, () => {
-console.log(Servidor corriendo en puerto ${port});
+console.log(`Servidor corriendo en puerto ${port}`);
 });
